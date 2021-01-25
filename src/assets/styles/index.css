@@ -126,11 +126,11 @@ canvas {
 }
 
 .stars {
-  background: #000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  background: #000 url(../images/stars.png) repeat top center;
 }
 
 .twinkling {
-  background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  background: transparent url(../images/twinkling.png) repeat top center;
   -moz-animation: move-twink-back 200s linear infinite;
   -ms-animation: move-twink-back 200s linear infinite;
   -o-animation: move-twink-back 200s linear infinite;
@@ -150,17 +150,18 @@ canvas {
   z-index: 1 !important;
 }
 
-/* 
-.fade-in {
-  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-  animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-} */
+
+
+.fade-in-out {
+  -webkit-animation: fade-in-out 3s cubic-bezier(.42, 0, 1, 1) both;
+  animation: fade-in-out 3s cubic-bezier(.42, 0, 1, 1) both;
+
+}
+
 
 .fade-in {
-  -webkit-animation: fade-in 3s cubic-bezier(.42, 0, 1, 1) both;
-  animation: fade-in 3s cubic-bezier(.42, 0, 1, 1) both;
-  -webkit-animation: fade-in 3s cubic-bezier(.42, 0, 1, 1) both;
-
+  -webkit-animation: fade-in 3s cubic-bezier(.42, 0, .58, 1) both;
+  animation: fade-in 3s cubic-bezier(.42, 0, .58, 1) both;
 
 }
 
@@ -168,13 +169,10 @@ canvas {
 
   position: absolute;
   font-family: 'nasa';
-
-
   font-size: 3rem;
   top: 30%;
   left: 30%;
 }
-
 
 
 .name {
@@ -182,22 +180,34 @@ canvas {
   color: red;
 }
 
-@-webkit-keyframes fade-in {
+
+
+@-webkit-keyframes fade-in-out {
   0% {
     opacity: 0;
   }
 
-  100% {
+  50% {
+
     opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
   }
 }
 
-@keyframes fade-in {
+@keyframes fade-in-out {
   0% {
     opacity: 0;
   }
 
-  100% {
+  50% {
+
     opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
   }
 }

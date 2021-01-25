@@ -1,4 +1,4 @@
-import { findAllByDisplayValue } from "@testing-library/react";
+import React from "react";
 
 const TimelineItem = ({ data }) => (
   <div className="timeline-item">
@@ -7,7 +7,7 @@ const TimelineItem = ({ data }) => (
         {data.category.tag}
       </span>
       <time>{data.time}</time>
-      <p>{data.time}</p>
+      <p>{data.text}</p>
       {data.link && (
         <a href={data.link.url} target="_blank" rel="noopener noreferrer">
           {data.link.text}

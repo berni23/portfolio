@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.timeline-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    color: white;
+}
+
+
+h1 {
+
+    text-align: center;
+}
+
+.timeline-container {
+    display: flex;
+    color: green;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.timeline-container::after {
+    background-color: '#e17b77';
+    content: '';
+    color: coral;
+    position: absolute;
+    left: calc(50%-2px);
+    width: 4px;
+    height: 100%;
+}

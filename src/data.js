@@ -1,7 +1,7 @@
 const data = [
   {
     text: " Physics degree at UAB",
-    data: "September 15 2012",
+    date: "September 15 2012",
 
     category: {
       tag: "medium",
@@ -15,7 +15,7 @@ const data = [
   },
   {
     text: " Physics degree at UAB",
-    data: "September 15 2012",
+    date: "September 15 2012",
 
     category: {
       tag: "medium",
@@ -29,7 +29,7 @@ const data = [
   },
   {
     text: " Physics degree at UAB",
-    data: "September 15 2012",
+    date: "September 15 2012",
 
     category: {
       tag: "medium",

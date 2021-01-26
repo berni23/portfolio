@@ -8,20 +8,21 @@ import Timeline from "./components/Timeline";
 function App() {
   const [timeline, setActive] = React.useState(false);
 
-  React.useEffect(() => {
-    if (!timeline) {
-      setTimeout(() => {
-        var nameContainer = document.querySelector(".name");
-        if (nameContainer) nameContainer.remove();
-        setActive(!timeline);
-      }, 10000);
-    }
-  }, []);
+  // React.useEffect(() => {
+  //   if (!timeline) {
+  //     setTimeout(() => {
+  //       var nameContainer = document.querySelector(".name");
+  //       if (nameContainer) nameContainer.remove();
+  //       setActive(!timeline);
+  //     }, 10000);
+  //   }
+  // }, []);
 
   return (
     <>
-      {timeline && <Timeline></Timeline>}
-      {timeline || <Title></Title>}
+      <Timeline></Timeline>
+      {/* {timeline && <Timeline></Timeline>}
+      {timeline || <Title></Title>} */}
       <div className="stars"></div>
       <div className="twinkling"></div>
     </>

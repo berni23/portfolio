@@ -7,12 +7,12 @@ import Timeline from "./components/Timeline";
 
 function App() {
   const [timeline, setActive] = React.useState(false);
+  const [name, setName] = React.useState(true);
 
   React.useEffect(() => {
     if (!timeline) {
       setTimeout(() => {
-        var nameContainer = document.querySelector(".name");
-        if (nameContainer) nameContainer.remove();
+        setName(!name);
         setActive(!timeline);
       }, 10000);
     }
@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       {timeline && <Timeline></Timeline>}
-      {timeline || <Title></Title>}
+      {name && <Title></Title>}
       <div className="stars"></div>
       <div className="twinkling"></div>
     </>

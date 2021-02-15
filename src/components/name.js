@@ -3,7 +3,7 @@ import React from "react";
 const Title = () => {
   var name = "BERNAT FERRER".split("");
 
-  var [letters, setLetters] = useState("");
+  var [letters, setLetters] = React.useState("");
   React.useEffect(() => {
     var nameContainer = document.querySelector(".name");
     var lettersInt = setInterval(() => {

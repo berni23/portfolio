@@ -1,6 +1,6 @@
 import React from "react";
 
-import Title from "./name";
+import Title from "./components/name";
 import Timeline from "./components/Timeline";
 
 // import Particles from "react-particles-js";

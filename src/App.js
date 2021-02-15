@@ -16,7 +16,7 @@ function App() {
         setActive(!timeline);
       }, 10000);
     }
-  }, []);
+  }, [timeline, name]);
 
   return (
     <>

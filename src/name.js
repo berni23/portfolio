@@ -2,6 +2,8 @@ import React from "react";
 
 const Title = () => {
   var name = "BERNAT FERRER".split("");
+
+  var [letters, setLetters] = useState("");
   React.useEffect(() => {
     var nameContainer = document.querySelector(".name");
     var lettersInt = setInterval(() => {
@@ -14,7 +16,7 @@ const Title = () => {
         clearInterval(lettersInt);
       }
     }, 300);
-  });
+  }, [letters]);
   return (
     <div className=" name-wrapper">
       <h1 className="name"></h1>

@@ -21,6 +21,7 @@ function App() {
       <Title></Title>
       <Timeline></Timeline>
       <Background></Background>
+      <Background></Background>
     </>
   );
 }

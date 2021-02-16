@@ -11,7 +11,6 @@
 }
 
 .timeline-wrapper {
-
     background-color: #d8dede55;
     background-image: linear-gradient(315deg, #e3efe84f 0%, #96a7cf65 74%);
     display: flex;
@@ -22,6 +21,7 @@
     font-family: 'Lato', sans-serif;
     margin: 0;
     color: black;
+    margin-top: 400px;
 }
 
 
@@ -60,8 +60,6 @@ h1 {
 }
 
 .timeline-item:nth-child(odd) {
-
-
     align-self: flex-end;
     justify-content: flex-start;
     padding-right: 0px;
@@ -70,12 +68,8 @@ h1 {
 }
 
 .timeline-item-content {
-
-
-
     display: flex;
     flex-direction: column;
-
     align-items: flex-end;
     text-align: right;
     padding: 15px;

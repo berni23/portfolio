@@ -1,8 +1,7 @@
-import timelineData from "../data";
+import timelineData from "../../data";
 import React from "react";
 import TimelineItem from "./TimelineItem";
-
-import "../assets/styles/App.css";
+import "./Timeline.scss";
 
 const Timeline = () =>
   timelineData.length > 0 && (

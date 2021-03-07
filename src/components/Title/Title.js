@@ -10,15 +10,16 @@ const Title = () => {
 
     if (title) {
       var nameContainer = document.querySelector(".name");
-      var lettersInt = setInterval(() => {
+      setInterval(() => {
         var letter = document.createElement("span");
         letter.classList.add("fade-in-out");
         letter.textContent = name.shift();
         nameContainer.append(letter);
         if (!name.length) {
-          clearInterval(lettersInt);
+         
           setTimeout(() => setTitle(false)
-            , 1000)
+            , 3000)
+           clearInterval(this);
         }
          
       }, 300);

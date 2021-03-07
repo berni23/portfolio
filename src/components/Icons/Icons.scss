@@ -9,23 +9,27 @@
 
         margin-right:230px;
         text-decoration: none;
-        animation: float 6s ease-in-out infinite;
     }
 
     a:nth-child(odd){
 
-        animation-delay:3s;
+        animation: float 6s 3s ease-in-out infinite, fadeIn ease 5s;
 
     }
+    a:nth-child(even){
+
+    animation: float 6s ease-in-out infinite, fadeIn ease 5s;
 
 
- 
-       
-
+    }
 
     
 }
 
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 
 @keyframes float {

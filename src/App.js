@@ -11,7 +11,7 @@ function App() {
   return (
     <>
      
-      {/* <Background></Background> */}
+      { <Background></Background>}
       <Navbar></Navbar>
 
       <div className='main'>

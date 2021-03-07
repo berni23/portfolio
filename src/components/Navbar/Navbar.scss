@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.navbar:hover{
+
+    background-color: #7dc8c6;
+    transition:  1s linear all; 
+}
+.navbar{
+
+    background-color:black;
+    .main-item{
+
+        font-weight:1000;
+    }
+
+    color:white;
+    font-family:'Roboto','sans-serif';
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    position:fixed;
+    top:0;
+    height:50px;
+   // background-color:yellow;
+    z-index:1000;
+
+    .item{
+
+         cursor:pointer;
+
+        div{
+
+        margin-right:10px;
+
+        }
+
+        display:flex;
+    }
+}

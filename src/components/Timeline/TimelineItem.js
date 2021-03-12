@@ -10,7 +10,10 @@ const TimelineItem = ({ data }) => (
 
         <time>{data.date}</time>
       </div>
-      <p>{data.text}</p>
+      <p>{data.title}</p>
+      <br/>
+
+      <p class = 'text'>{data.text}</p>
 
       {data.link && (
         <a href={data.link.url} target="_blank" rel="noopener noreferrer">

@@ -3,6 +3,7 @@ import './Icons.scss';
 import Github from '../../assets/images/github.svg';
 import Linkedin from '../../assets/images/linkedin.svg';
 
+import pdf from '../../assets/docs/CV_bernat.pdf';
 
 const Icons = () => {
     return(
@@ -15,7 +16,7 @@ const Icons = () => {
 
             </a>
  
-              <a style = {{marginTop:'10px'}} href = 'https://www.linkedin.com/in/bernat-ferrer/'>
+              <a style = {{marginTop:'10px'}} href ={pdf}>
                 <span style={{fontSize:'3rem',fontWeight:"1000", color: 'white' }} src={Linkedin} alt='linkedin' >CV</span>
 
             </a>

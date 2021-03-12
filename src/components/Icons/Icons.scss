@@ -4,11 +4,14 @@
 .icons{
 
     display:flex;
+   // margin-left: 15rem;
    
     a{
+    text-decoration: none;
+        }
+    a:not(:last-child){
 
         margin-right:230px;
-        text-decoration: none;
     }
 
     a:nth-child(odd){

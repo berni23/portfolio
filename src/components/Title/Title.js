@@ -27,8 +27,8 @@ const Title = () => {
   },[title,name]);
   return (
     <div className="name-wrapper">
-      {title?< h1 className="name"></h1>
-      :<Icons></Icons>
+      {title&&< h1 className="name"></h1>
+      // :<Icons></Icons>
       }
     </div>
   );

@@ -14,7 +14,7 @@ const Icons = () => {
       
             setRender(true)
    
-  }, 6000);
+  }, 5000);
   return () => clearTimeout(timer);
 }, [render]);
     

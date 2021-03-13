@@ -1,6 +1,5 @@
 import React from "react";
 import "./Title.scss";
-import Icons from "../Icons/Icons";
 
 
 const Title = () => {

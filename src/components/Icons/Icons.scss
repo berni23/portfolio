@@ -1,9 +1,19 @@
 
 
 
+.hide{
+
+    opacity:0;
+}
+
+.fade-in{
+
+    animation: fadeIn ease 5s;
+}
 .icons{
 
     display:flex;
+    margin-bottom:100px;
    // margin-left: 15rem;
    
     a{
@@ -13,6 +23,7 @@
 
         margin-right:230px;
     }
+
 
     a:nth-child(odd){
 

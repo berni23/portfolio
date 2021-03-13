@@ -6,8 +6,22 @@ import Linkedin from '../../assets/images/linkedin.svg';
 import pdf from '../../assets/docs/CV_bernat.pdf';
 
 const Icons = () => {
-    return(
-        <div className='icons'> 
+
+    const [render, setRender] = React.useState(false);
+
+    React.useEffect(() => {
+        const timer = setTimeout(() => {
+      
+            setRender(true)
+   
+  }, 6000);
+  return () => clearTimeout(timer);
+}, [render]);
+    
+
+    return (
+        
+        <div className={`icons ${render? "fade-in" : "hide" }`}>
             <a href='https://github.com/berni23'>
             <img  style={{ width: '50px', height: '50px' }} src={Github} alt='github' />
             </a>

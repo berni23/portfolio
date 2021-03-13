@@ -6,7 +6,18 @@
     background-color: #7dc8c6;
     transition:  1s linear all; 
 }
+
 .navbar{
+
+    min-height:80px;
+
+    div{
+
+        margin-top:10px;
+       
+       
+    }
+
 
     background-color:black;
     .main-item{
@@ -14,7 +25,10 @@
         font-weight:1000;
     }
 
-    color:white;
+    color: white;
+    transition:  1s linear all; 
+
+
     font-family:'Roboto','sans-serif';
     padding:10px;
     display:flex;

@@ -1,7 +1,7 @@
 import React from "react";
 
 
-import location from  "../../assets/images/location.svg"
+// import location from  "../../assets/images/location.svg"
 
 const TimelineItem = ({ data,idx }) => {
   const [render, setRender] = React.useState(false);

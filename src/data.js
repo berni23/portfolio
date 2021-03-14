@@ -12,7 +12,59 @@ import assembler from "./assets/images/assembler.png"
 
 
 
+
 const data = [
+
+
+
+   {
+    title: "Backend developer at Bekodo",
+    date: "March 2021 - Now",
+    text: " Intensive software development master focused in web applications. The programm was project-based" +
+      "several projects were developed under an agile environment and carefully following clean code patterns. During"+
+      " that period  i could learn full-stack technologies,  focusing more on the back-end side of web development.",
+    
+
+    img: assembler,
+    location:'Barcelona',
+    category: {
+      tag: "studies",
+      color: "#2fbded",
+
+    },
+
+
+      category2: {
+      tag: "work",
+      color: "#FF8C00",
+    },
+      
+      
+    tags: [
+
+      'javascript',
+      'php',
+      'html',
+      'css',
+      'git',
+      'laravel',
+      'react',
+      'nodejs',
+      'MVC',
+      'RestFUL',
+       
+    ],
+        
+    
+    link: {
+      url: "https://www.assemblerschool.com/",
+      text: "Assembler",
+    },
+  },
+   
+
+
+
   {
     title: " Software development master at Assembler",
     date: "June 2020 - Feb 2021",
@@ -39,7 +91,6 @@ const data = [
     tags: [
 
       'javascript',
-
       'php',
       'html',
       'css',

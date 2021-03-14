@@ -2,13 +2,21 @@
 
 
 
-.taglist{
+
+
+.taglist:nth-child(odd){
 
 
     margin-top:20px;
     display:flex;
     flex-wrap:wrap;
-    width:100%
+    width:100%;
+
+
+    *{
+
+        float:left;
+    }
 }
 
 

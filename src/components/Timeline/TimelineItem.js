@@ -1,11 +1,10 @@
 import React from "react";
 
+
+import location from  "../../assets/images/location.svg"
+
 const TimelineItem = ({ data,idx }) => {
-
-
-
   const [render, setRender] = React.useState(false);
-
 
   React.useEffect(() => {
     const timer = setTimeout(() => {
@@ -16,34 +15,55 @@ const TimelineItem = ({ data,idx }) => {
     return () => clearTimeout(timer);
   }, [render,idx]);
 
-
-
-
   return (
-
-
     <div className={`timeline-item ${render?"fade-in":"hide" }`}>
        <div className="timeline-item-content" >
         <div className="header-item">
-          <span className="tag" style={{ background: data.category.color }}>
+          <div>
+            <span className="tag" style={{ background: data.category.color }}>
             {data.category.tag}
-          </span>
-
-          <time>{data.date}</time>
+            </span>
+            {data.category2 &&   
+               <span className="tag" style={{ background: data.category2.color, marginRight:'10px' }}>
+            {data.category2.tag}
+            </span>
+              
+            
+            }
+            
+          
+              
+              
+          <br />
+            </div>
+          <p className='timeline-date'>{data.date}</p>
         </div>
-        <p>{data.title}</p>
+            <br />
+        <p className='timeline-title'>{data.title}</p>
+{/* 
+         {data.img &&
+          
+          <img className ='img-timeline' src = {data.img} alt = 'img'></img>
+        
+            } */}
+          
         <br />
 
-        <p className='text'>{data.text}</p>
+        <p className='text'>{data.text}
+        </p>
+        
 
         {data.link && (
           <a href={data.link.url} target="_blank" rel="noopener noreferrer">
-            {data.link.text}
+            {data.img?<img  className='img-timeline' src ={data.img} alt='img'></img> : data.link.text}
           </a>
         )}
 
+      
+
         <span className="circle"></span>
       </div>
+       
     </div>
 
   )

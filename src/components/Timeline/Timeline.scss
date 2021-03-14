@@ -25,6 +25,36 @@
 }
 
 
+.img-timeline{
+
+    height:35px;
+    margin-top:10px;
+    
+    
+}
+
+.timeline-title{
+
+    font-size:1.5rem;
+    color:#2d5d87;
+}
+.timeline-date{
+
+
+    font-size:1.0rem;
+
+}
+
+.text{
+   
+    text-align:justify;
+    color:#777;
+    font-size:1rem;
+
+}
+
+
+
 h1 {
 
     text-align: center;
@@ -78,7 +108,7 @@ h1 {
     box-shadow: 0 0 5px rgba(126, 200, 178, 0.7);
     background-color: #fff;
     max-width: 70%;
-    width: 400px;
+    width: 600px;
 }
 
 
@@ -176,12 +206,6 @@ h1 {
     font-weight: 700;
 }
 
-.text{
-
-
-    float:left;
-    color:#777;
-}
 
 
 

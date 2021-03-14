@@ -85,21 +85,34 @@ canvas {
     }
 }
 
+
+// .background-wrapper{
+
+//     width: 100%;
+//     height: 200%;
+//     position:absolute;
+//     top:0;
+//     bottom:0;
+    
+
+// }
+
 .stars,
 .twinkling {
     position: absolute;
-    top: 0;
+    top: 100px;
     left: 0;
     right: 0;
     bottom: 0;
     width: 100%;
-    height: 100%;
+    height: 150vh;
     display: block;
     z-index: -2 !important;
 }
 
 .stars {
     background: #000 url(../../assets/images/stars.png) repeat top center;
+    background-size:cover
 }
 
 .twinkling {

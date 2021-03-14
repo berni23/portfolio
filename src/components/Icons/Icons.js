@@ -22,16 +22,16 @@ const Icons = () => {
     return (
         
         <div className={`icons ${render? "fade-in" : "hide" }`}>
-            <a href='https://github.com/berni23'>
+            <a href='https://github.com/berni23' rel='noreferrer' target="_blank">
             <img  style={{ width: '50px', height: '50px' }} src={Github} alt='github' />
             </a>
-            <a href = 'https://www.linkedin.com/in/bernat-ferrer/'>
+            <a href = 'https://www.linkedin.com/in/bernat-ferrer/' rel='noreferrer' target="_blank">
                 <img style={{ width: '50px', height: '50px', backgroundColor: 'black', color: 'white' }} src={Linkedin} alt='linkedin' />
 
             </a>
  
-              <a style = {{marginTop:'10px'}} href ={pdf}>
-                <span style={{fontSize:'3rem',fontWeight:"1000", color: 'white' }} src={Linkedin} alt='linkedin' >CV</span>
+              <a style = {{marginTop:'10px'}} href ={pdf} rel='noreferrer' target="_blank">
+                <span style={{fontSize:'3rem',fontWeight:"1000", color: 'white' }} >CV</span>
 
             </a>
 

@@ -27,31 +27,19 @@ const TimelineItem = ({ data,idx }) => {
                <span className="tag" style={{ background: data.category2.color, marginRight:'10px' }}>
             {data.category2.tag}
             </span>
-              
-            
+                   
             }
-            
-          
-              
-              
+        
           <br />
             </div>
           <p className='timeline-date'>{data.date}</p>
         </div>
             <br />
         <p className='timeline-title'>{data.title}</p>
-{/* 
-         {data.img &&
-          
-          <img className ='img-timeline' src = {data.img} alt = 'img'></img>
-        
-            } */}
-          
+      
         <br />
-
         <p className='text'>{data.text}
-        </p>
-        
+        </p>        
 
         {data.link && (
           <a href={data.link.url} target="_blank" rel="noopener noreferrer">
@@ -59,9 +47,16 @@ const TimelineItem = ({ data,idx }) => {
           </a>
         )}
 
-      
+        
+        <ul className = 'taglist'>
+                  <li class = 'hashtag'>#tableau</li>
 
-        <span className="circle"></span>
+                  <li class = 'hashtag'>#Excel</li>
+
+
+
+        </ul>
+    <span className="circle"></span>
       </div>
        
     </div>

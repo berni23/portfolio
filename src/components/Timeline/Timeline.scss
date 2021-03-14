@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 
+
+.taglist{
+
+
+    margin-top:20px;
+}
+
+.hashtag{
+
+
+    padding: 2px 4px;
+    list-style-type: none;
+    display: inline;
+    border-radius: 3px;
+    border: 1px solid #efeae1;
+    background-color: #f8f6f2;
+    color: #9e9b95 !important;
+    margin-right: 10px !important;
+}
+
 #root {
 
     width: 100%;

@@ -5,8 +5,12 @@ export default function Background() {
     
 
     <div className="background-wrapper">
-      <div className="stars"></div>
-      <div className="twinkling"></div>
+      <div className="stars stars1"></div>
+
+      <div className="stars stars2"></div>
+          <div className="stars stars3"></div>
+
+            <div className="twinkling"></div>
     </div>
 
   );

@@ -25,7 +25,7 @@ const Timeline = () => {
   return (timelineData.length > 0 && (
     <div className={`timeline-wrapper ${render ? "fade-in" : "hide"}`}>
       <Icons></Icons>
-      <div className="timeline-container">
+      <div className="timeline-container"  id='about'>
         {timelineData.map((data, idx) => (
           <TimelineItem data={data} key={idx} idx={idx} />
         ))}

@@ -24,7 +24,7 @@ const TimelineItem = ({ data,idx }) => {
             {data.category.tag}
             </span>
             {data.category2 &&   
-               <span className="tag" style={{ background: data.category2.color, marginRight:'10px' }}>
+               <span className="tag" style={{ background: data.category2.color}}>
             {data.category2.tag}
             </span>
                    
@@ -54,7 +54,7 @@ const TimelineItem = ({ data,idx }) => {
             
             tag = '#' + tag;
 
-            return  <li class='hashtag'>{tag}</li>
+            return  <li className='hashtag'>{tag}</li>
         })}
           
           </ul>

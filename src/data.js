@@ -10,6 +10,7 @@ import LMU from "./assets/images/LMU.png"
 import assembler from "./assets/images/assembler.png"
 
 
+import Bekodo from "./assets/images/bekodo.svg"
 
 
 
@@ -20,21 +21,11 @@ const data = [
    {
     title: "Backend developer at Bekodo",
     date: "March 2021 - Now",
-    text: " Intensive software development master focused in web applications. The programm was project-based" +
-      "several projects were developed under an agile environment and carefully following clean code patterns. During"+
-      " that period  i could learn full-stack technologies,  focusing more on the back-end side of web development.",
-    
+    text: " Currently working as a backend developer at Bekodo",
 
-    img: assembler,
+    img: Bekodo,
     location:'Barcelona',
-    category: {
-      tag: "studies",
-      color: "#2fbded",
-
-    },
-
-
-      category2: {
+      category: {
       tag: "work",
       color: "#FF8C00",
     },
@@ -42,23 +33,20 @@ const data = [
       
     tags: [
 
-      'javascript',
-      'php',
+       'python',
+      'django',
+       'javascript',
       'html',
       'css',
       'git',
-      'laravel',
-      'react',
-      'nodejs',
-      'MVC',
+      'software arquitecture',
       'RestFUL',
        
     ],
-        
-    
+      
     link: {
-      url: "https://www.assemblerschool.com/",
-      text: "Assembler",
+      url: "https://www.bekodo.com/",
+      text: "Bekodo",
     },
   },
    

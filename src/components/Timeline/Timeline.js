@@ -6,8 +6,6 @@ import "./Timeline.scss";
 import Icons from "../Icons/Icons";
 
 const Timeline = () => {
-
-
     const [render, setRender] = React.useState(false);
 
 

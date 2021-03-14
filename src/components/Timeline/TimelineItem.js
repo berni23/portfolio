@@ -29,10 +29,11 @@ const TimelineItem = ({ data,idx }) => {
             </span>
                    
             }
-        
-          <br />
+      
+          </div>
+          <div>
+            <p className='timeline-date'>{data.date}</p>   
             </div>
-          <p className='timeline-date'>{data.date}</p>
         </div>
             <br />
         <p className='timeline-title'>{data.title}</p>
@@ -47,15 +48,18 @@ const TimelineItem = ({ data,idx }) => {
           </a>
         )}
 
-        
         <ul className = 'taglist'>
-                  <li class = 'hashtag'>#tableau</li>
+        
+          {data.tags && data.tags.map((tag, idx) => { 
+            
+            tag = '#' + tag;
 
-                  <li class = 'hashtag'>#Excel</li>
-
-
-
-        </ul>
+            return  <li class='hashtag'>{tag}</li>
+        })}
+          
+          </ul>
+        
+      
     <span className="circle"></span>
       </div>
        

@@ -6,7 +6,12 @@
 
 
     margin-top:20px;
+    display:flex;
+    flex-wrap:wrap;
+    width:100%
 }
+
+
 
 .hashtag{
 
@@ -19,6 +24,8 @@
     background-color: #f8f6f2;
     color: #9e9b95 !important;
     margin-right: 10px !important;
+    margin-top:10px;
+    overflow:hidden;
 }
 
 #root {

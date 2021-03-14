@@ -21,25 +21,46 @@ const data = [
       " that period  i could learn full-stack technologies,  focusing more on the back-end side of web development.",
     
 
-    img:assembler,
+    img: assembler,
+    location:'Barcelona',
     category: {
       tag: "studies",
       color: "#2fbded",
 
     },
 
+
       category2: {
       tag: "work",
       color: "#FF8C00",
     },
+      
+      
+    tags: [
 
+      'javascript',
+
+      'php',
+      'html',
+      'css',
+      'git',
+      'laravel',
+      'react',
+      'nodejs',
+      'MVC',
+      'RestFUL',
+       
+    ],
+        
+    
     link: {
-      url: "https://picsum.photos/200",
-      text: "lorem picsum",
+      url: "https://www.assemblerschool.com/",
+      text: "Assembler",
     },
   },
-  {
-    title: "Data analist at M-net, Munich",
+   
+   {
+    title: "Data analist at M-net",
     date: "Sept 2018 - Oct 2019",
     text: "My job at M-net constisted in analyzing the revenue data from internet contracts in"+
       "order to maximize income and reduce possible losses. Moreover, I also analyzed the data regarding"+ 
@@ -47,10 +68,19 @@ const data = [
      "and also minimizing the risk to suffer possible Hacker frauds.",
     img:Mnet,
 
+    location:'Munich',
+
     category: {
       tag: "work",
       color: "#FF8C00",
-    },
+     },
+    
+     tags: [
+
+       'Excel',
+       'Tableau',
+
+    ],
 
     link: {
       url: "https://www.m-net.de/hilfe-service/anleitungen/kundenportal/",
@@ -68,6 +98,19 @@ const data = [
       tag: "studies",
       color: "#2fbded",
     },
+
+    tags: [
+      
+      'physics',
+      'python',
+      'jupyter',
+      'linux',
+      'latex',
+      'seaborn-python',
+      'artist-python',
+      'numpy-python',
+      'scipy-python'
+    ],
 
     img:LMU,
 
@@ -91,11 +134,10 @@ const data = [
       color: "#2fbded",
     },
 
-    // link: {
-    //   url: "https://picsum.photos/200",
-    //   text:
-    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, autem reiciendis? Minus accusantium esse, quisquam ex perspiciatis veniam inventore similique exercitationem iste cupiditate voluptas voluptates magni quas, consectetur vitae odio quae hic possimus sed debitis molestiae tenetur? Saepe, labore id autem earum consequatur quos culpa quaerat quae necessitatibus! Quibusdam, nostrum?",
-    // },
+     link: {
+       url: "https://www.uab.cat/en/",
+       text: " UAB"
+    },
   },
 ];
 

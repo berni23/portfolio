@@ -12,7 +12,7 @@ const Navbar = () =>
         <div className="main-item">BERNAT FERRER</div>
         <div className = "item">
         <div><Link to ='about' spy={true} smooth={true}>About</Link></div>
-        <div>Projects</div>
+        {/* <div>Projects</div> */}
             <div style={{marginRight:'20px'}}>Contact </div>
         </div>
         

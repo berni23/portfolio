@@ -1,62 +1,50 @@
-
-
-
-.hide{
-
-    opacity:0;
+.hide {
+    opacity: 0;
 }
 
-.fade-in{
-
+.fade-in {
     animation: fadeIn ease 5s;
 }
-.icons{
+.icons {
+    display: flex;
+    margin-bottom: 100px;
+    // margin-left: 15rem;
 
-    display:flex;
-    margin-bottom:100px;
-   // margin-left: 15rem;
-   
-    a{
-    text-decoration: none;
-        }
-    a:not(:last-child){
-
-        margin-right:230px;
+    a {
+        text-decoration: none;
+    }
+    a:not(:last-child) {
+        margin-right: 230px;
     }
 
-
-    a:nth-child(odd){
-
+    a:nth-child(odd) {
         animation: float 6s 3s ease-in-out infinite, fadeIn ease 5s;
-
     }
-    a:nth-child(even){
-
-    animation: float 6s ease-in-out infinite, fadeIn ease 5s;
-
-
+    a:nth-child(even) {
+        animation: float 6s ease-in-out infinite, fadeIn ease 5s;
     }
-
-    
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
-
 @keyframes float {
-	0% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
-	}
-	50% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatey(-20px);
-	}
-	100% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
-	}
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+    }
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+        transform: translatey(-20px);
+    }
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+    }
 }

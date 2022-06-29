@@ -14,7 +14,7 @@
     "react-fade-in": "^2.0.0",
     "react-particles-js": "^3.4.1",
     "react-scripts": "4.0.1",
-    "react-scroll": "^1.8.2",
+    "react-scroll": "^1.8.7",
     "react-transition-group": "^4.4.1",
     "web-vitals": "^0.2.4"
   },

@@ -8,15 +8,10 @@ import Background from "./components/Background/Background";
 function App() {
   return (
     <>
-     
    <Background></Background>
       <Navbar></Navbar>
-
       <div className='main'>
-        
-     
         <Title></Title>
-    
       <Timeline></Timeline>
           </div>
     </>
